@@ -1,0 +1,339 @@
+.bg-success{
+   background-color:#4d8b55!important;
+}
+.text-success{
+    color: #4d8b55!important;
+}
+.btn-success{
+    background-color: #4d8b55!important;
+}
+
+body{
+    font-family: 'Poppins'!important;
+}
+.navbar-collapse{
+    flex-grow: 0!important;
+   
+}
+ul li{
+    list-style: none!important;
+}
+a{
+    text-decoration: none!important;
+}
+nav ul li .dropdown{
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    top:100px;
+    cursor: pointer;
+    /* right: 600px; */
+}
+nav ul li:hover .dropdown{
+    opacity: 1;
+    visibility: visible;
+    top:80px;
+ 
+}
+.collapse ul li a .icon:hover{
+    transform: rotate(270deg);
+}
+.dropdown ul li:hover{
+    background-color: #4d8b55;
+    color:white!important;
+}
+nav ul li:hover{
+   color: #060606!important;
+}
+.collapse ul li a:hover{
+    color: #4d8b55!important;   
+}
+.collapse ul li i:hover{
+    color: white;
+}
+/* banner start */
+.banner{
+    background-image: url('../image/slide_01-1.jpg');
+    background-size: cover;
+    text-align: center;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    /* z-index: -1; */
+    
+}
+.banner button ,.tab-content button ,.mood-content button{
+    width: 200px;
+    padding: 14px;
+    border-radius: 30px;  
+}
+
+.center{
+    padding-bottom: 150px;
+}
+.card{
+    position: relative;
+    margin-top: -60px;
+    /* z-index: 1; */
+    border-radius: 0!important;
+   }
+.card .card-content{
+    position:absolute;
+   }
+.card-content{
+    bottom: 20px;
+    text-align: center;
+    display: block;
+   }
+.card{
+    text-align: center;
+    display: block;
+   }
+.card .card-content span{
+    text-align: center!important;
+}
+.card .card-image::before{
+    position: absolute;
+    content: '';
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.544);
+    z-index: 1;
+}
+.card .card-content{
+    z-index: 2;
+    border: none;
+}
+.card{
+    overflow: hidden;
+}
+.card .card-content span{
+    font-weight: 700;
+}
+.card:hover .card-image{
+    transform: scale(1.3);
+    transition: 0.5s;
+    overflow: hidden;
+}
+/* banner end */
+/* tasty product start */
+.product{
+    background-image: url('../image/menu_parallax.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.681);
+    background-blend-mode: darken;
+}
+.product .list{
+    background-image: url('../image/menu-bg.png');
+    background-repeat: no-repeat;
+   background-size:cover ;
+   flex-direction: column;
+   align-items: center;
+   padding: 150px 50px;
+   background-position: center;
+   margin-bottom: 100px;
+}
+
+
+.scrollbar::-webkit-scrollbar{
+    background-color: black;
+    width: 5px;
+    border-radius: 30px;
+}
+.scrollbar::-webkit-scrollbar-thumb{
+    background-color: white;
+}
+/* tasty product end */
+
+/* watch video start */
+.watch p{
+    font-size: 14px;
+}
+.watch a{
+    font-size: 35px;
+    /* margin-right: 12px; */
+}
+.watch i:hover{
+    color: white;
+    transition: 0.3s;
+}
+
+/* watch video end */
+/* form start */
+.book{
+    background-image: url('../image/black-bg.png');
+    overflow: hidden;
+    /* justify-content: center; */
+    position: relative;
+    padding: 100px 0 0 0;
+}
+.book::before{
+    position: absolute;
+    content: '';
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-image: url('../image/black-contact-girl-1.png');
+    background-repeat: no-repeat;
+    background-position:  20%;
+}
+.book form button ,.coffee-content button{
+    background-color: #151515;
+    border: 0;
+    font-weight:700 ;
+}
+
+.book .book-content{
+    background-color: #4d8b55;
+    padding: 50px ;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin: 150px 0 200px 0 ;
+    background-image: url('../image/branch-bg.png');
+    background-position: bottom;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    
+}
+/* your mood start */
+.mood .mood-content{
+   /* position: absolute;
+   content: '';
+   box-sizing: border-box;
+   width: 100%;
+   height: 100%; */
+    background-image: url('../image/black-leaf.png');
+    background-repeat: no-repeat;
+    /* left: 20%; */
+    /* display: block; */
+    background-position: right;
+
+}
+
+
+/* your mood end */
+
+/* form end */
+
+/* four box start */
+.aroma .awesome:hover img{
+    transform: translatey(-10%);
+    transition: 0.3s;
+}
+.aroma .awesome img{
+    /* font-size: 30px; */
+    width: 80px;
+    text-align: center;
+    /* display: block; */
+    /* justify-content: center; */
+    /* color: #4d8b55; */
+}
+/* four box end */
+/* coffee machines start */
+
+.machines{
+    background-image: url('../image/leaves_pattern_010.png');
+    background-color: #457D4C;
+   
+    /* z-index: 2;    */
+}
+
+
+
+/* coffee machines end */
+/* five box start */
+.project .project-image .overlay{
+  
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right:0;
+   color: white;
+   background-image: url('../image/product-black-02-480x682.jpg');
+   background-color: rgba(0, 0, 0, 0.232);
+   background-blend-mode: darken;
+   background-size: cover;
+   width: 100%;
+   height: 100%;
+   transition: 0.5s;
+   opacity: 0;
+   transform: scaleX(0);
+
+}
+.project .project-image:hover .overlay  {
+   
+    transform: scaleX(1);
+  opacity: 1;
+}
+/* five box start */
+/* footer start */
+.footer{
+    background-image: url('../image/footer-bg.jpg');
+    padding: 100px 0 10px 0;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.568);
+    background-blend-mode: darken;
+}
+.footer .footer-logo i:hover{
+    color: white!important;
+    transition: 0.5s;
+}
+.footer .footer-content h3:hover{
+    color: #4d8b55!important;
+    transition: 0.5s;
+}
+/* footer end */
+/* button start */
+button {
+  
+    cursor: pointer;
+    transition: all ease .3s;
+}
+
+button{
+    background: linear-gradient( to bottom, #4d8b55 50%,     white 50% );
+    background-size: 100% 200%;
+    background-position: left top;
+
+    &:hover {
+        background-position: right bottom;
+        color: white;
+    }
+}
+button:hover{
+    color: black !important;
+}
+#btn-dark{
+    background: linear-gradient( to bottom, black 50%,     white 50% );
+    background-size: 100% 200%;
+    background-position: left top;
+    color: white;
+    cursor: pointer;
+
+   
+   
+
+    &:hover {
+        background-position: right bottom; 
+         background-color: white !important; 
+         color: black !important; 
+        transition: all ease .3s !important;
+        cursor: pointer;
+
+    }
+}
+/* button end */
+@media (min-width:992px){
+    .product .list{
+        background-size: contain;
+    }
+}
+@media screen and (max-width: 992px){
+    .book::before{
+        width: 0%;
+        height: 0%;
+    }
+}
+/* cart start */
